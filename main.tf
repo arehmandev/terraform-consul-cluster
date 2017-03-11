@@ -19,8 +19,3 @@ module "consul-cluster" {
   public_key_path = "${var.public_key_path}"
   asgname         = "consul-asg"
 }
-
-//  We'll also show the DNS to the consul cluster.
-output "consul-dns" {
-  value = "${module.consul-cluster.consul-dns}"
-}
