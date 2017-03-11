@@ -20,12 +20,12 @@ variable "vpc_cidr" {
 
 variable "subnetaz1" {
   description = "The AZ for the first public subnet, e.g: us-east-1a"
-  type = "map"
+  type        = "map"
 }
 
 variable "subnetaz2" {
   description = "The AZ for the second public subnet, e.g: us-east-1b"
-  type = "map"
+  type        = "map"
 }
 
 variable "subnet_cidr1" {

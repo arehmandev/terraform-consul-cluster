@@ -1,6 +1,6 @@
 //  Setup the core provider information.
 provider "aws" {
-  region  = "${var.region}"
+  region = "${var.region}"
 }
 
 //  Create the consul-cluster, based on our consul module.

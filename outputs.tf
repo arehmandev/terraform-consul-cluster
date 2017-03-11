@@ -8,4 +8,4 @@ output "amisize" {
 
 output "region" {
   value = "${var.region}"
-} 
+}
