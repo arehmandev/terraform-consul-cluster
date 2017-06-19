@@ -1,3 +1,5 @@
+# DEPRECATED - please see [Terraform-AWS-Consul](https://github.com/arehmandev/Terraform-AWS-Consul)
+
 # terraform-consul-cluster
 
 This repo demonstrates how to create a resilient Consul cluster running on AWS, using Terraform. It is the companion project to my article '[Creating a Resilient Consul Cluster for Docker Microservice Discovery with Terraform and AWS](http://www.dwmkerr.com/creating-a-resilient-consul-cluster-for-docker-microservice-discovery-with-terraform-and-aws/)'.
